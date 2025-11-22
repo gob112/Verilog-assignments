@@ -10,6 +10,8 @@ module clr_28bit( output wire [ 27 : 0 ] r,
                    input wire [  3 : 0 ] y );
 
   // Stage 1: complete this module implementation
-  //changed
+  wire fy;
+  assign fy = (y[3]&y[2]&y[1]&y[0])| (~y[3]&~y[2]&~y[1]&~y[0])|(y[3]&~y[2]&~y[1]&~y[0])|(~y[3]&~y[2]&~y[1]&y[0]);
+  assign r = fy ? {(x<<1) | (x >> 27)} : {(x<<2) | (x>>26)};
 
 endmodule
