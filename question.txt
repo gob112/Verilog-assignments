@@ -17,7 +17,7 @@
 So we can calibrate and improve the assignment in the future, give us a 
 rough idea how long (in hours) you spent on it *in total*:
 
-effort : [...] hours
+effort : [16] hours
 
 ===============================================================================
 
@@ -33,7 +33,7 @@ AI), etc., *is* allowed *iff.* it
 In line with applicable policies around academic integrity, clarify what
 you claim is *your* work by documenting any third-party resources used:
 
-[...]
+[]
 
 ===============================================================================
 
@@ -49,13 +49,13 @@ reasoning about these latter aspects forms part of the assessment, so they
 are not (necessarily) detailed explicitly.
 
     Stage 1 : implement
-[?]           - clr_28bit    module                                  ( 20%)
-[?]           - key_schedule module                                  ( 10%)
-[?]           - round        module                                  ( 10%)
+[X]           - clr_28bit    module                                  ( 20%)
+[X]           - key_schedule module                                  ( 10%)
+[X]           - round        module                                  ( 10%)
 
-[?] Stage 2 : implement encrypt_comb module, combinatorial design    ( 20%)
+[X] Stage 2 : implement encrypt_comb module, combinatorial design    ( 20%)
 
-[?] Stage 3 : implement encrypt_iter module, iterative     design    ( 20%)
+[X] Stage 3 : implement encrypt_iter module, iterative     design    ( 20%)
 
 [?] Stage 4 : implement encrypt_pipe module, pipelined     design    ( 20%)
 
