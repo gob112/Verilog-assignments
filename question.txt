@@ -33,7 +33,7 @@ AI), etc., *is* allowed *iff.* it
 In line with applicable policies around academic integrity, clarify what
 you claim is *your* work by documenting any third-party resources used:
 
-[]
+[https://www.chipverify.com/verilog/verilog-fsm]
 
 ===============================================================================
 
